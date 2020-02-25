@@ -10,7 +10,7 @@
     "local_file_path":"public_ip.txt",
     "domain_record_list":[
          ["**.com", "www"] ,
-         ["**.com","@"], ...
+         ["**.com","@"],
         ] ,
    "//":"检测时间间隔  单位s"
    "type_key_word":"A", 
