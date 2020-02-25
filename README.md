@@ -19,3 +19,7 @@
    "time_sleep": 600 
 }
 ```
+## 打包命令
+```shell
+pyinstaller -F --hidden-import=queue ddns2.py
+```
