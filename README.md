@@ -1,5 +1,5 @@
 # ddns
-脚本下一个文件 ddns_config.json
+脚本同目录下一个文件 ddns_config.json
 ```json
 {
     "//": "阿里云的access_key_id ，在阿里云管理界面头像找",
