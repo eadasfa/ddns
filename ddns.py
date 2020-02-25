@@ -9,8 +9,8 @@ from aliyunsdkcore import client
 from aliyunsdkalidns.request.v20150109 import UpdateDomainRecordRequest
 from aliyunsdkalidns.request.v20150109 import DescribeDomainRecordsRequest
 
-access_key_id = 'LTAIWgr3IoUnlKEz'
-access_key_secret = 'rETR0Cf1ZJdbc3qGeh6t6Q0eWWgT0E'
+access_key_id = ''
+access_key_secret = ''
 
 local_file_path = 'C:\\Users\\13194\\public_ip.txt'
 
@@ -39,7 +39,7 @@ if (current_ip is None and new_ip is not None) or (
 
     clt = client.AcsClient(access_key_id, access_key_secret, 'cn-hangzhou')
 
-    domain_record_list = [['dddqqq.club', 'www']]
+    domain_record_list = [['***.club', 'www']]
 
     for [DomainName, RRKeyWord] in domain_record_list:
 
