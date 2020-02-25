@@ -3,9 +3,9 @@
 ```json
 {
     "//": "阿里云的access_key_id ，在阿里云管理界面头像找",
-    "access_key_id" : 'adgasgas',
+    "access_key_id" :"adgasgas",
     "//":"同上",
-    "access_key_secret" : "dasgagasgasgasgasgasdg",
+    "access_key_secret" :"dasgagasgasgasgasgasdg",
     "//":"保存当前ip",
     "local_file_path":"public_ip.txt",
     "domain_record_list":[
