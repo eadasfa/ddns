@@ -1,4 +1,5 @@
 # ddns
+> 该脚本主要是根据 [](https://www.chiphell.com/thread-1711001-1-1.html) 修改而来
 脚本同目录下一个文件 ddns_config.json
 ```json
 {
